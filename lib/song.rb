@@ -53,7 +53,7 @@ class Song
         #"Blank Space"
 
     song = self.new
-    song.new_by_name(song_name_string)
+    song.name = song_name_string
     song.artist = artist_string
 
     #return new song instance with song name sent to title & artist set to artist
