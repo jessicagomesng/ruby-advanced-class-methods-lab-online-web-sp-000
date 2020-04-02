@@ -49,7 +49,7 @@ class Song
         #[Taylor Swift, Blank Space.mp3]
     artist_string = artist_name_array[0]
         #"Taylor Swift"
-    song_name_string = artist_name_array[1].strip(".mp3")
+    song_name_string = artist_name_array[1]
         #"Blank Space"
 
     song = self.new
