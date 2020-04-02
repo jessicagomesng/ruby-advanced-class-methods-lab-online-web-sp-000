@@ -47,6 +47,7 @@ class Song
   def self.new_from_filename(artist_and_name)
     artist_name_array = artist_and_name.split(" - ")
     artist_string = artist_name_array[0].join
+    song_name_string = artist_name_array[1].join.strip(".mp3")
     #[Taylor Swift, Blank Space.mp3]
 
     #return new song instance with song name sent to title & artist set to artist
