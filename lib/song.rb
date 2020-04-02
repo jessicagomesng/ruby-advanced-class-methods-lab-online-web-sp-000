@@ -44,7 +44,10 @@ class Song
     self.all.sort_by { |song| song.name }
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(artist_and_name)
+    artist_and_name.split("-")
+    #return new song instance with song name sent to title & artist set to artist 
+    #Taylor Swift - Blank Space.mp3
   end
 
 end
