@@ -48,11 +48,9 @@ class Song
   end
 
   def self.alphabetical
-    binding.pry
     @@all.sort do |a, b|
-      if a != nil || b!= nil
         a <=> b
-      end 
+      end
     end
   end
 
