@@ -52,8 +52,9 @@ class Song
     song_name_string = artist_name_array[1].join.strip(".mp3")
         #"Blank Space"
 
-    self.new_by_name(song_name_string)
-    self.artist = artist_string
+    song = self.new
+    song.new_by_name(song_name_string)
+    song.artist = artist_string
 
     #return new song instance with song name sent to title & artist set to artist
     #Taylor Swift - Blank Space.mp3
