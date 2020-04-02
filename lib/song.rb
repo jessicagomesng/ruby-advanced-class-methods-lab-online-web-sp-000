@@ -25,6 +25,8 @@ class Song
 
   def self.create_by_name(name)
     self.create
+    song.name = song_name
+    song
   end
 
   def self.find_by_name(name)
