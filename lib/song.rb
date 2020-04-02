@@ -40,7 +40,6 @@ class Song
   if self.find_by_name(name) == 0
     self.find_by_name(name)
   else
-    if self.find_by_name(name) == 0
       self.create_by_name(name)
     end
   end
