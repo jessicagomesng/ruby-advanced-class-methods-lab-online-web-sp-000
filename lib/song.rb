@@ -60,4 +60,7 @@ class Song
     #Taylor Swift - Blank Space.mp3
   end
 
+  def self.create_from_filename(artist_and_name)
+  
+
 end
