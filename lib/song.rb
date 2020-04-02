@@ -55,6 +55,7 @@ class Song
     song = self.new
     song.name = song_name_string
     song.artist = artist_string
+    song 
 
     #return new song instance with song name sent to title & artist set to artist
     #Taylor Swift - Blank Space.mp3
