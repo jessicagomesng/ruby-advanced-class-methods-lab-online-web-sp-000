@@ -52,7 +52,6 @@ binding.pry
     @@all.sort do |a, b|
         a <=> b
       end
-    end
   end
 
   def self.new_from_filename
