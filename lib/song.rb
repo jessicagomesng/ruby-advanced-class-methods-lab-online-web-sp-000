@@ -33,7 +33,6 @@ class Song
     self.all.detect do |song|
       song.name == name
     end
-
   end
 
 end
