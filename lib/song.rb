@@ -37,9 +37,9 @@ class Song
 
   def self.find_or_create_by_name(name)
 #first -- need to look & see if song exists in all
-  if self.find_by_name(name) == 0
-    self.find_by_name(name)
-  else
+    if self.find_by_name(name) == 0
+      self.find_by_name(name)
+    else
       self.create_by_name(name)
     end
   end
