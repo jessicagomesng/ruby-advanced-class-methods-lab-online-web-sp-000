@@ -53,6 +53,7 @@ class Song
         #"Blank Space"
     song = self.new_from_filename(song_name_string)
     song.artist_name = artist_string
+    song 
     #return new song instance with song name sent to title & artist set to artist
     #Taylor Swift - Blank Space.mp3
   end
