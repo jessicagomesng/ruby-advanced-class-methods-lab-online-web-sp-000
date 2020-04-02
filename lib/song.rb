@@ -50,7 +50,9 @@ class Song
   def self.alphabetical
     binding.pry 
     @@all.sort do |a, b|
-      a <=> b
+      if a != nil || b!= nil
+        a <=> b
+      end 
     end
   end
 
