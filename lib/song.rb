@@ -13,6 +13,8 @@ class Song
   def self.create
     song = self.new
     song.name = name 
+    self.all << song
+    self.all
   end
 
 end
