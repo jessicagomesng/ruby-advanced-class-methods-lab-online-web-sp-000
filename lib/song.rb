@@ -51,10 +51,8 @@ class Song
         #"Taylor Swift"
     song_name_string = artist_name_array[1].delete_suffix(".mp3")
         #"Blank Space"
-    song = self.new
-    song.name = song_name_string
+    song = self.new_from_filename(song_name_string)
     song.artist_name = artist_string
-    song
     #return new song instance with song name sent to title & artist set to artist
     #Taylor Swift - Blank Space.mp3
   end
